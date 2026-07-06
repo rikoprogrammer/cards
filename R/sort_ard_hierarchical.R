@@ -92,14 +92,12 @@ sort_ard_hierarchical <- function(x, sort = everything() ~ "descending", sort_le
   ard_args <- attributes(x)$args
 
 
-
   # for calculations by highest severity, innermost variable is extracted from `by`
   if (length(ard_args$by) > 1) {
     ard_args$variables <- c(ard_args$variables, dplyr::last(ard_args$by))
     ard_args$include <- c(ard_args$include, dplyr::last(ard_args$by))
     ard_args$original_by <- ard_args$by
-    ard_args$by  <- ard_args$by[-length(ard_args$by)]
-
+    ard_args$by <- ard_args$by[-length(ard_args$by)]
   }
 
   # get and check sorting method(s)
@@ -124,19 +122,20 @@ sort_ard_hierarchical <- function(x, sort = everything() ~ "descending", sort_le
 
 
   # if sort_level is specified then we can't have missing by argument.
-  if(!is.null(sort_level) & is_empty(ard_args$by)){
+  if (!is.null(sort_level) & is_empty(ard_args$by)) {
     cli::cli_abort(
-        "If 'by' argument is missing then sort_level has no useful meaning, please specify 'by' argument if you want to use sort_level.",
+      "If 'by' argument is missing then sort_level has no useful meaning,
+        please specify 'by' argument if you want to use sort_level.",
       call = get_cli_abort_call()
     )
   }
 
 
   # if there are two or more by variables then sort_level is no longer useful, therefore abort.
-  if(!is.null(sort_level) & !is_empty(ard_args$by) & length(ard_args$original_by) > 1){
+  if (!is.null(sort_level) & !is_empty(ard_args$by) & length(ard_args$original_by) > 1) {
     cli::cli_abort(
-        "sort_level is not useful with more than one by variables.",
-        call = get_cli_abort_call()
+      "The argument `sort_level` is not useful with more than one by variables.",
+      call = get_cli_abort_call()
     )
   }
 
@@ -318,7 +317,6 @@ sort_ard_hierarchical <- function(x, sort = everything() ~ "descending", sort_le
     }
   }
   sort_stat <- if (n_stat) "n" else "p" # statistic used to calculate group sums
-
 
 
   # calculate group sums

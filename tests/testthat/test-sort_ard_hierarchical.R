@@ -598,7 +598,7 @@ test_that("sort_ard_hierarchical() warning messaging works", {
   ard_by_more <- ard_stack_hierarchical(
     data = ADAE_subset,
     variables = c(AESOC, AEDECOD),
-    by = c(TRTA,SEX),
+    by = c(TRTA, SEX),
     denominator = cards::ADSL,
     id = USUBJID,
     statistic = everything() ~ "N"
@@ -609,6 +609,4 @@ test_that("sort_ard_hierarchical() warning messaging works", {
     sort_ard_hierarchical(ard_by_more, sort_level = "Placebo"),
     error = TRUE
   )
-
-
 })
