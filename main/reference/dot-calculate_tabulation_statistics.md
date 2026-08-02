@@ -53,7 +53,7 @@ argument, and returns the tabulations in an ARD structure.
 
 - statistic:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element one or more of `c("n", "N", "p", "n_cum", "p_cum")` (on the
   RHS of a formula).

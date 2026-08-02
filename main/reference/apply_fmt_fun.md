@@ -2,7 +2,7 @@
 
 Apply the formatting functions to each of the raw statistics. Function
 aliases are converted to functions using
-[`alias_as_fmt_fun()`](https://insightsengineering.github.io/cards/reference/alias_as_fmt_fun.md).
+[`alias_as_fmt_fun()`](https://pharmaverse.github.io/cards/reference/alias_as_fmt_fun.md).
 
 ## Usage
 

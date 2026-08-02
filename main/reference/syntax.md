@@ -21,8 +21,8 @@ package and custom selectors. Review their help files for details.
 
 - **cards selectors**
 
-  [`all_ard_groups()`](https://insightsengineering.github.io/cards/reference/selectors.md),
-  [`all_ard_variables()`](https://insightsengineering.github.io/cards/reference/selectors.md)
+  [`all_ard_groups()`](https://pharmaverse.github.io/cards/reference/selectors.md),
+  [`all_ard_variables()`](https://pharmaverse.github.io/cards/reference/selectors.md)
 
 ## Formula and List Selectors
 

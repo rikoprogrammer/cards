@@ -26,9 +26,9 @@ filter_ard_hierarchical(
 
   (`card`)\
   a stacked hierarchical ARD of class `'card'` created using
-  [`ard_stack_hierarchical()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md)
+  [`ard_stack_hierarchical()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md)
   or
-  [`ard_stack_hierarchical_count()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md).
+  [`ard_stack_hierarchical_count()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md).
 
 - filter:
 
@@ -168,7 +168,7 @@ Some examples of possible filters:
 
 ## See also
 
-[`sort_ard_hierarchical()`](https://insightsengineering.github.io/cards/reference/sort_ard_hierarchical.md)
+[`sort_ard_hierarchical()`](https://pharmaverse.github.io/cards/reference/sort_ard_hierarchical.md)
 
 ## Examples
 

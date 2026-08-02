@@ -53,9 +53,9 @@ for more complex updates.
 To simplify working with these list columns, {cards} provides helper
 functions:
 
-- **[`update_ard_fmt_fun()`](https://insightsengineering.github.io/cards/reference/update_ard.md)**:
+- **[`update_ard_fmt_fun()`](https://pharmaverse.github.io/cards/reference/update_ard.md)**:
   Update formatting functions for specific statistics
-- **[`update_ard_stat_label()`](https://insightsengineering.github.io/cards/reference/update_ard.md)**:
+- **[`update_ard_stat_label()`](https://pharmaverse.github.io/cards/reference/update_ard.md)**:
   Update statistic labels
 
 These functions handle the list column mechanics for you, making it

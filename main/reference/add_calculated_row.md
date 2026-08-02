@@ -49,7 +49,7 @@ add_calculated_row(
   (`integer`, `function`, `string`)\
   a function of an integer or string that can be converted to a function
   with
-  [`alias_as_fmt_fun()`](https://insightsengineering.github.io/cards/reference/alias_as_fmt_fun.md).
+  [`alias_as_fmt_fun()`](https://pharmaverse.github.io/cards/reference/alias_as_fmt_fun.md).
 
 - fmt_fn:
 

@@ -98,7 +98,7 @@ ard_stack_hierarchical_count(
 
 - statistic:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element one or more of `c("n", "N", "p", "n_cum", "p_cum")` (on the
   RHS of a formula).
@@ -121,7 +121,7 @@ ard_stack_hierarchical_count(
 
   (scalar `logical`)\
   logical indicating whether to include the results of
-  [`ard_attributes()`](https://insightsengineering.github.io/cards/reference/ard_attributes.md)
+  [`ard_attributes()`](https://pharmaverse.github.io/cards/reference/ard_attributes.md)
   for all variables represented in the ARD. Default is `FALSE`.
 
 - total_n:

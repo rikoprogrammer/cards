@@ -142,6 +142,5 @@ months.
 ## Code of Conduct
 
 Please note that the cards project is released with a [Contributor Code
-of
-Conduct](https://insightsengineering.github.io/cards/CODE_OF_CONDUCT.md).
-By contributing to this project you agree to abide by its terms.
+of Conduct](https://pharmaverse.github.io/cards/CODE_OF_CONDUCT.md). By
+contributing to this project you agree to abide by its terms.

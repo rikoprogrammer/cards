@@ -65,7 +65,7 @@ ard_tabulate_value(
 
 - statistic:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element one or more of `c("n", "N", "p", "n_cum", "p_cum")` (on the
   RHS of a formula).
@@ -78,14 +78,14 @@ ard_tabulate_value(
 
 - fmt_fun:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element is a named list of functions (or the RHS of a formula), e.g.
   `list(mpg = list(mean = \(x) round(x, digits = 2) |> as.character()))`.
 
 - stat_label:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element is either a named list or a list of formulas defining the
   statistic labels, e.g. `everything() ~ list(n = "n", p = "pct")` or
@@ -102,7 +102,7 @@ an ARD data frame of class 'card'
 ## Denominators
 
 By default, the
-[`ard_tabulate()`](https://insightsengineering.github.io/cards/reference/ard_tabulate.md)
+[`ard_tabulate()`](https://pharmaverse.github.io/cards/reference/ard_tabulate.md)
 function returns the statistics `"n"`, `"N"`, and `"p"`, where little
 `"n"` are the counts for the variable levels, and big `"N"` is the
 number of non-missing observations. The calculation for the proportion
@@ -147,7 +147,7 @@ by `[0, 1]`. The default function to format the statistic scales the
 proportion by 100 and the percentage is returned which matches the
 default statistic label of `'%'`. To get the formatted values, pass the
 ARD to
-[`apply_fmt_fun()`](https://insightsengineering.github.io/cards/reference/apply_fmt_fun.md).
+[`apply_fmt_fun()`](https://pharmaverse.github.io/cards/reference/apply_fmt_fun.md).
 
 ## Examples
 

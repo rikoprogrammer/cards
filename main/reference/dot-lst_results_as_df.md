@@ -1,7 +1,7 @@
 # Prepare Results as Data Frame
 
 Function takes the results from
-[`eval_capture_conditions()`](https://insightsengineering.github.io/cards/reference/eval_capture_conditions.md),
+[`eval_capture_conditions()`](https://pharmaverse.github.io/cards/reference/eval_capture_conditions.md),
 which is a named list, e.g. `list(result=, warning=, error=)`, and
 converts it to a data frame.
 
@@ -17,7 +17,7 @@ converts it to a data frame.
 
   (named `list`)\
   the result from
-  [`eval_capture_conditions()`](https://insightsengineering.github.io/cards/reference/eval_capture_conditions.md)
+  [`eval_capture_conditions()`](https://pharmaverse.github.io/cards/reference/eval_capture_conditions.md)
 
 - variable:
 

@@ -20,13 +20,13 @@ sort_ard_hierarchical(x, sort = everything() ~ "descending")
 
   (`card`)\
   a stacked hierarchical ARD of class `'card'` created using
-  [`ard_stack_hierarchical()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md)
+  [`ard_stack_hierarchical()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md)
   or
-  [`ard_stack_hierarchical_count()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md).
+  [`ard_stack_hierarchical_count()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md).
 
 - sort:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md),
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md),
   `string`)\
   a named list, a list of formulas, a single formula where the list
   element is a named list of functions (or the RHS of a formula), or a
@@ -63,7 +63,7 @@ combination of variable levels).
 
 ## See also
 
-[`filter_ard_hierarchical()`](https://insightsengineering.github.io/cards/reference/filter_ard_hierarchical.md)
+[`filter_ard_hierarchical()`](https://pharmaverse.github.io/cards/reference/filter_ard_hierarchical.md)
 
 ## Examples
 

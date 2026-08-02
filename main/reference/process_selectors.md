@@ -117,7 +117,7 @@ cards_select(expr, data, ..., arg_name = NULL)
 - x:
 
   - `compute_formula_selector()`:
-    ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+    ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
     a named list, list of formulas, or a single formula that will be
     converted to a named list.
 
@@ -182,43 +182,43 @@ get(x = "statistic", envir = example_env)
 #> $TRT01P
 #> function (x, ...) 
 #> UseMethod("mean")
-#> <bytecode: 0x55e75c635658>
+#> <bytecode: 0x558f63202b18>
 #> <environment: namespace:base>
 #> 
 #> $TRT01PN
 #> function (x, ...) 
 #> UseMethod("mean")
-#> <bytecode: 0x55e75c635658>
+#> <bytecode: 0x558f63202b18>
 #> <environment: namespace:base>
 #> 
 #> $TRT01A
 #> function (x, ...) 
 #> UseMethod("mean")
-#> <bytecode: 0x55e75c635658>
+#> <bytecode: 0x558f63202b18>
 #> <environment: namespace:base>
 #> 
 #> $TRT01AN
 #> function (x, ...) 
 #> UseMethod("mean")
-#> <bytecode: 0x55e75c635658>
+#> <bytecode: 0x558f63202b18>
 #> <environment: namespace:base>
 #> 
 #> $TRTEDT
 #> function (x, ...) 
 #> UseMethod("mean")
-#> <bytecode: 0x55e75c635658>
+#> <bytecode: 0x558f63202b18>
 #> <environment: namespace:base>
 #> 
 #> $TRTDUR
 #> function (x, ...) 
 #> UseMethod("mean")
-#> <bytecode: 0x55e75c635658>
+#> <bytecode: 0x558f63202b18>
 #> <environment: namespace:base>
 #> 
 #> $TRTA
 #> function (x, ...) 
 #> UseMethod("mean")
-#> <bytecode: 0x55e75c635658>
+#> <bytecode: 0x558f63202b18>
 #> <environment: namespace:base>
 #> 
 #> $TRTSDT

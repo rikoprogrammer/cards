@@ -44,7 +44,7 @@ ard_tabulate_rows(
 
 - fmt_fun:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element is a named list of functions (or the RHS of a formula), e.g.
   `list(mpg = list(mean = \(x) round(x, digits = 2) |> as.character()))`.

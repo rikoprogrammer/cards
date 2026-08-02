@@ -52,7 +52,7 @@ mock_total_n()
 
 - statistic:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   elements are character vectors of statistic names to appear in the
   ARD.

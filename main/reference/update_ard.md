@@ -50,7 +50,7 @@ update_ard_stat_label(
 
   (`function`)\
   a function or alias recognized by
-  [`alias_as_fmt_fun()`](https://insightsengineering.github.io/cards/reference/alias_as_fmt_fun.md).
+  [`alias_as_fmt_fun()`](https://pharmaverse.github.io/cards/reference/alias_as_fmt_fun.md).
 
 - filter:
 

@@ -25,7 +25,7 @@ check_ard_structure(
 
   (scalar `logical`)\
   check whether ordering of columns adheres to to
-  [`cards::tidy_ard_column_order()`](https://insightsengineering.github.io/cards/reference/tidy_ard_order.md).
+  [`cards::tidy_ard_column_order()`](https://pharmaverse.github.io/cards/reference/tidy_ard_order.md).
 
 - method:
 

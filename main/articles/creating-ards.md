@@ -205,19 +205,19 @@ with a single vector as its input. How would we update the code above if
 we need to implement a two-sample t-test?
 
 The
-[`cards::ard_mvsummary()`](https://insightsengineering.github.io/cards/reference/ard_mvsummary.md)
+[`cards::ard_mvsummary()`](https://pharmaverse.github.io/cards/reference/ard_mvsummary.md)
 is similar to
-[`cards::ard_summary()`](https://insightsengineering.github.io/cards/reference/ard_summary.md),
+[`cards::ard_summary()`](https://pharmaverse.github.io/cards/reference/ard_summary.md),
 but allows for more complex inputs in the function passed in the
 `statistic` argument. In
-[`cards::ard_summary()`](https://insightsengineering.github.io/cards/reference/ard_summary.md),
+[`cards::ard_summary()`](https://pharmaverse.github.io/cards/reference/ard_summary.md),
 the functions passed must accept a single vector, e.g. `\(x) t.test(x)`.
 But in
-[`cards::ard_mvsummary()`](https://insightsengineering.github.io/cards/reference/ard_mvsummary.md),
+[`cards::ard_mvsummary()`](https://pharmaverse.github.io/cards/reference/ard_mvsummary.md),
 in addition to the vector being passed, the `data` subset, the
 `full_data`, character `by`, and character `strata` are also passed (see
 the
-[`cards::ard_mvsummary()`](https://insightsengineering.github.io/cards/reference/ard_mvsummary.md)
+[`cards::ard_mvsummary()`](https://pharmaverse.github.io/cards/reference/ard_mvsummary.md)
 for a full description). Your function does not need to utilize each of
 these elements, but each *will be passed* to your function. As a result,
 we recommend your function accept the triple dots to handle unused
@@ -290,7 +290,7 @@ that the output will be of a consistent format so as not to impact
 downstream code.
 
 Here’s an example of how to specify the expected output using
-[`cards::as_cards_fn()`](https://insightsengineering.github.io/cards/reference/as_cards_fn.md):
+[`cards::as_cards_fn()`](https://pharmaverse.github.io/cards/reference/as_cards_fn.md):
 
 ``` r
 
@@ -317,7 +317,7 @@ cards::ADSL |>
 ```
 
 Our function becomes the first argument to
-[`cards::as_cards_fn()`](https://insightsengineering.github.io/cards/reference/as_cards_fn.md),
+[`cards::as_cards_fn()`](https://pharmaverse.github.io/cards/reference/as_cards_fn.md),
 then the second argument is `stat_names` where we specify the expected
 names of the output list.
 
@@ -325,7 +325,7 @@ In the output shown here, the `error` column is still populated with the
 error. However, now we have the expected 8 rows and we can see that the
 `stat_name` and `stat_label` match the values specified in the
 `stat_names` argument in the
-[`as_cards_fn()`](https://insightsengineering.github.io/cards/reference/as_cards_fn.md)—helping
+[`as_cards_fn()`](https://pharmaverse.github.io/cards/reference/as_cards_fn.md)—helping
 us to avoid problems in code that relies on this output.
 
 ## Formalizing Your Function
@@ -335,7 +335,7 @@ example adding it to a package, you may want to include the function’s
 arguments in the returned ARD. Returning the arguments improves the
 traceability of the ARD, and requires combining the function’s default
 arguments (the formals) and any argument passed by the user. The
-[`ard_formals()`](https://insightsengineering.github.io/cards/reference/ard_formals.md)
+[`ard_formals()`](https://pharmaverse.github.io/cards/reference/ard_formals.md)
 function helps combine these results.
 
 In the example below, we expand out one-sample t-test example with the

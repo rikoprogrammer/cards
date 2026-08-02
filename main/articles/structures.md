@@ -38,7 +38,7 @@ ard
 ## YAML
 
 The
-[`as_nested_list()`](https://insightsengineering.github.io/cards/reference/as_nested_list.md)
+[`as_nested_list()`](https://pharmaverse.github.io/cards/reference/as_nested_list.md)
 function prepares the ARD data frame to be converted to a YAML object.
 
 ``` r
@@ -68,7 +68,7 @@ ard |>
 ## JSON
 
 The
-[`as_nested_list()`](https://insightsengineering.github.io/cards/reference/as_nested_list.md)
+[`as_nested_list()`](https://pharmaverse.github.io/cards/reference/as_nested_list.md)
 function prepares the ARD data frame to be converted to a JSON object.
 
 ``` r

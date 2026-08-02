@@ -2,12 +2,12 @@
 
 **\[questioning\]**\
 *Function is questioning because we think a better solution may be
-[`ard_summary()`](https://insightsengineering.github.io/cards/reference/ard_summary.md) +
-[`ard_formals()`](https://insightsengineering.github.io/cards/reference/ard_formals.md).*
+[`ard_summary()`](https://pharmaverse.github.io/cards/reference/ard_summary.md) +
+[`ard_formals()`](https://pharmaverse.github.io/cards/reference/ard_formals.md).*
 
 Function converts a model's one-row tidy data frame into an ARD
 structure. The tidied data frame must have been constructed with
-[`eval_capture_conditions()`](https://insightsengineering.github.io/cards/reference/eval_capture_conditions.md).
+[`eval_capture_conditions()`](https://pharmaverse.github.io/cards/reference/eval_capture_conditions.md).
 
 This function is primarily for developers and few consistency checks
 have been included.
@@ -31,7 +31,7 @@ tidy_as_ard(
 
   (named `list`)\
   list of tidied results constructed with
-  [`eval_capture_conditions()`](https://insightsengineering.github.io/cards/reference/eval_capture_conditions.md),
+  [`eval_capture_conditions()`](https://pharmaverse.github.io/cards/reference/eval_capture_conditions.md),
   e.g.
   `eval_capture_conditions(t.test(mtcars$mpg ~ mtcars$am) |> broom::tidy())`.
 

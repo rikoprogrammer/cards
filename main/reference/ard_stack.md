@@ -4,7 +4,7 @@ Stack multiple ARD calls sharing common input `data` and `by` variables.
 Optionally incorporate additional information on represented variables,
 e.g. overall calculations, rates of missingness, attributes, or
 transform results with
-[`shuffle_ard()`](https://insightsengineering.github.io/cards/reference/deprecated.md).
+[`shuffle_ard()`](https://pharmaverse.github.io/cards/reference/deprecated.md).
 
 If the `ard_stack(by)` argument is specified, a univariate tabulation of
 the by variable will also be returned.
@@ -53,21 +53,21 @@ ard_stack(
 
   (`logical`)\
   logical indicating whether to include the results of
-  [`ard_missing()`](https://insightsengineering.github.io/cards/reference/ard_missing.md)
+  [`ard_missing()`](https://pharmaverse.github.io/cards/reference/ard_missing.md)
   for all variables represented in the ARD. Default is `FALSE`.
 
 - .attributes:
 
   (`logical`)\
   logical indicating whether to include the results of
-  [`ard_attributes()`](https://insightsengineering.github.io/cards/reference/ard_attributes.md)
+  [`ard_attributes()`](https://pharmaverse.github.io/cards/reference/ard_attributes.md)
   for all variables represented in the ARD. Default is `FALSE`.
 
 - .total_n:
 
   (`logical`)\
   logical indicating whether to include of
-  [`ard_total_n()`](https://insightsengineering.github.io/cards/reference/ard_total_n.md)
+  [`ard_total_n()`](https://pharmaverse.github.io/cards/reference/ard_total_n.md)
   in the returned ARD.
 
 - .shuffle:

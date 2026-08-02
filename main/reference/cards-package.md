@@ -10,11 +10,11 @@ objects and creating new Analysis Results Data objects.
 
 Useful links:
 
-- <https://github.com/insightsengineering/cards>
+- <https://github.com/pharmaverse/cards>
 
-- <https://insightsengineering.github.io/cards/>
+- <https://pharmaverse.github.io/cards/>
 
-- Report bugs at <https://github.com/insightsengineering/cards/issues>
+- Report bugs at <https://github.com/pharmaverse/cards/issues>
 
 ## Author
 

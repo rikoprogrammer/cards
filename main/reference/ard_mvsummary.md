@@ -1,7 +1,7 @@
 # Multivariate ARD Summaries
 
 Function is similar to
-[`ard_summary()`](https://insightsengineering.github.io/cards/reference/ard_summary.md),
+[`ard_summary()`](https://pharmaverse.github.io/cards/reference/ard_summary.md),
 but allows for more complex, multivariate summaries. While
 `ard_summary(statistic)` only allows for a univariable function,
 `ard_mvsummary(statistic)` can handle more complex data summaries.
@@ -58,7 +58,7 @@ ard_mvsummary(
 
 - statistic:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   The form of the statistics argument is identical to
   `ard_summary(statistic)` argument, except the summary function *must*
   accept the following arguments:
@@ -84,14 +84,14 @@ ard_mvsummary(
 
 - fmt_fun:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element is a named list of functions (or the RHS of a formula), e.g.
   `list(mpg = list(mean = \(x) round(x, digits = 2) |> as.character()))`.
 
 - stat_label:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element is either a named list or a list of formulas defining the
   statistic labels, e.g. `everything() ~ list(mean = "Mean", sd = "SD")`

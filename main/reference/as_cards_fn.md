@@ -2,9 +2,9 @@
 
 Add attributes to a function that specify the expected results. It is
 used when
-[`ard_summary()`](https://insightsengineering.github.io/cards/reference/ard_summary.md)
+[`ard_summary()`](https://pharmaverse.github.io/cards/reference/ard_summary.md)
 or
-[`ard_mvsummary()`](https://insightsengineering.github.io/cards/reference/ard_mvsummary.md)
+[`ard_mvsummary()`](https://pharmaverse.github.io/cards/reference/ard_mvsummary.md)
 errors and constructs an ARD with the correct structure when the results
 cannot be calculated.
 

@@ -2,9 +2,9 @@
 
 *Functions `ard_hierarchical()` and `ard_hierarchical_count()` are
 primarily helper functions for
-[`ard_stack_hierarchical()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md)
+[`ard_stack_hierarchical()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md)
 and
-[`ard_stack_hierarchical_count()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md),
+[`ard_stack_hierarchical_count()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md),
 meaning that it will be rare a user needs to call
 `ard_hierarchical()`/`ard_hierarchical_count()` directly.*
 
@@ -79,7 +79,7 @@ ard_hierarchical_count(
 
 - statistic:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element one or more of `c("n", "N", "p", "n_cum", "p_cum")` (on the
   RHS of a formula).
@@ -101,14 +101,14 @@ ard_hierarchical_count(
 
 - fmt_fun:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element is a named list of functions (or the RHS of a formula), e.g.
   `list(mpg = list(mean = \(x) round(x, digits = 2) |> as.character()))`.
 
 - stat_label:
 
-  ([`formula-list-selector`](https://insightsengineering.github.io/cards/reference/syntax.md))\
+  ([`formula-list-selector`](https://pharmaverse.github.io/cards/reference/syntax.md))\
   a named list, a list of formulas, or a single formula where the list
   element is either a named list or a list of formulas defining the
   statistic labels, e.g. `everything() ~ list(n = "n", p = "pct")` or

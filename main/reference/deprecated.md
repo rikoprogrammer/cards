@@ -7,22 +7,22 @@ supported.
 **Renamed functions**
 
 - `ard_categorical()` to
-  [`ard_tabulate()`](https://insightsengineering.github.io/cards/reference/ard_tabulate.md)
+  [`ard_tabulate()`](https://pharmaverse.github.io/cards/reference/ard_tabulate.md)
 
 - `ard_continuous()` to
-  [`ard_summary()`](https://insightsengineering.github.io/cards/reference/ard_summary.md)
+  [`ard_summary()`](https://pharmaverse.github.io/cards/reference/ard_summary.md)
 
 - `ard_complex()` to
-  [`ard_mvsummary()`](https://insightsengineering.github.io/cards/reference/ard_mvsummary.md)
+  [`ard_mvsummary()`](https://pharmaverse.github.io/cards/reference/ard_mvsummary.md)
 
 - `apply_fmt_fn()` to
-  [`apply_fmt_fun()`](https://insightsengineering.github.io/cards/reference/apply_fmt_fun.md)
+  [`apply_fmt_fun()`](https://pharmaverse.github.io/cards/reference/apply_fmt_fun.md)
 
 - `alias_as_fmt_fn()` to
-  [`alias_as_fmt_fun()`](https://insightsengineering.github.io/cards/reference/alias_as_fmt_fun.md)
+  [`alias_as_fmt_fun()`](https://pharmaverse.github.io/cards/reference/alias_as_fmt_fun.md)
 
 - `update_ard_fmt_fn()` to
-  [`update_ard_fmt_fun()`](https://insightsengineering.github.io/cards/reference/update_ard.md)
+  [`update_ard_fmt_fun()`](https://pharmaverse.github.io/cards/reference/update_ard.md)
 
 **Deprecated functions**
 

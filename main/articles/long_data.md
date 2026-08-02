@@ -12,9 +12,9 @@ ADCM, and other similarly structured data sets.
 
 Generally, the solution to long data summaries lies with
 `ard_stack_hierarchical*()`,
-[`ard_strata()`](https://insightsengineering.github.io/cards/reference/ard_strata.md),
+[`ard_strata()`](https://pharmaverse.github.io/cards/reference/ard_strata.md),
 or even a call to a more basic function like
-[`ard_tabulate()`](https://insightsengineering.github.io/cards/reference/ard_tabulate.md).
+[`ard_tabulate()`](https://pharmaverse.github.io/cards/reference/ard_tabulate.md).
 Herein, we will review these function and when each is needed.
 
 ## Hierarchical or Nested Summaries
@@ -30,13 +30,13 @@ In the table above, the AE *rates* are reported for both the system
 organ class (SOC) and AE term. That is, each AE is counted once per
 subject and then rate for each AE calculated; this is repeated for SOC.
 A call to the
-[`ard_stack_hierarchical()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md)
+[`ard_stack_hierarchical()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md)
 function will return an ARD with the adverse event rates, the system
 organ class rates, the overall rates (row one from the example table),
 and the counts that appear in the header.
 
 To create the ARD for this table, use the
-[`ard_stack_hierarchical()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md)
+[`ard_stack_hierarchical()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md)
 function.
 
 ``` r
@@ -159,7 +159,7 @@ ard_ae |>
 
 The package exports a similar function for counting adverse event,
 rather than calculating rates:
-[`ard_stack_hierarchical_count()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md).
+[`ard_stack_hierarchical_count()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md).
 
 ## Stratified Summaries
 
@@ -170,7 +170,7 @@ summary statistics are reported by lab type, visit and treatment.
 [TABLE]
 
 To build the ARD for this table, we use the
-[`ard_summary()`](https://insightsengineering.github.io/cards/reference/ard_summary.md).
+[`ard_summary()`](https://pharmaverse.github.io/cards/reference/ard_summary.md).
 
 - `ard_summary(by="TRTA")`: Use the `by` argument ensures each level of
   treatment has all associated summary statistics, even if there are
@@ -221,7 +221,7 @@ ADLB |>
 
 There are some cases, where slightly different behavior is needed within
 stratum. In these cases, use the
-[`ard_strata()`](https://insightsengineering.github.io/cards/reference/ard_strata.md)
+[`ard_strata()`](https://pharmaverse.github.io/cards/reference/ard_strata.md)
 function. For example, if we were tabulating character `AVALC` values,
 and the possible values are different depending on `PARAM`, the code may
 look something like this:

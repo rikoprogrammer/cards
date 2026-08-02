@@ -22,7 +22,7 @@ variable summary for `AGE`, a **categorical** variable summary for
 #### Continuous Summaries
 
 To get a continuous variable summary, we will use the
-[`ard_summary()`](https://insightsengineering.github.io/cards/reference/ard_summary.md)
+[`ard_summary()`](https://pharmaverse.github.io/cards/reference/ard_summary.md)
 function from the **{cards}** package.
 
 ``` r
@@ -56,7 +56,7 @@ df_continuous_ard |> head(5)
 #### Categorical Summaries
 
 To get the categorical variable summary, we will use the
-[`ard_tabulate()`](https://insightsengineering.github.io/cards/reference/ard_tabulate.md)
+[`ard_tabulate()`](https://pharmaverse.github.io/cards/reference/ard_tabulate.md)
 function.
 
 ``` r
@@ -70,18 +70,18 @@ df_categorical_ard <-
 df_categorical_ard |> head(5)
 #> {cards} data frame: 5 x 11
 #>   group1 group1_level variable variable_level stat_name stat_label  stat
-#> 1    ARM      Placebo   AGEGR1            <65         n          n    14
-#> 2    ARM      Placebo   AGEGR1            <65         N          N    86
-#> 3    ARM      Placebo   AGEGR1            <65         p          % 0.163
-#> 4    ARM      Placebo   AGEGR1            >80         n          n    30
-#> 5    ARM      Placebo   AGEGR1            >80         N          N    86
+#> 1    ARM      Placebo   AGEGR1          65-80         n          n    42
+#> 2    ARM      Placebo   AGEGR1          65-80         N          N    86
+#> 3    ARM      Placebo   AGEGR1          65-80         p          % 0.488
+#> 4    ARM      Placebo   AGEGR1            <65         n          n    14
+#> 5    ARM      Placebo   AGEGR1            <65         N          N    86
 #> ℹ 4 more variables: context, fmt_fun, warning, error
 ```
 
 #### Dichotomous Summaries
 
 To get the dichotomous variable summary, we will use
-[`ard_tabulate_value()`](https://insightsengineering.github.io/cards/reference/ard_tabulate_value.md).
+[`ard_tabulate_value()`](https://pharmaverse.github.io/cards/reference/ard_tabulate_value.md).
 In this case, we want to show the Female (`"F"`) level of the `SEX`
 variable and specify this with the `values` argument.
 
@@ -109,7 +109,7 @@ df_dichotomous_ard |> head(5)
 
 As a last step, you can combine all of these objects into a single
 object using
-[`bind_ard()`](https://insightsengineering.github.io/cards/reference/bind_ard.md),
+[`bind_ard()`](https://pharmaverse.github.io/cards/reference/bind_ard.md),
 which is similar to
 [`dplyr::bind_rows()`](https://dplyr.tidyverse.org/reference/bind_rows.html)
 and includes additional structural checks for our results.
@@ -141,7 +141,7 @@ bind_ard(
 #### Shortcut
 
 The
-[`ard_stack()`](https://insightsengineering.github.io/cards/reference/ard_stack.md)
+[`ard_stack()`](https://pharmaverse.github.io/cards/reference/ard_stack.md)
 function provides a shortcut to perform the calculations above in a
 single step.
 
@@ -179,9 +179,9 @@ ard_stack(
 #> 5     ARM      Placebo      AGE                       sd         SD   8.59
 #> 6     ARM      Placebo      AGE                      min        Min     52
 #> 7     ARM      Placebo      AGE                      max        Max     89
-#> 8     ARM      Placebo   AGEGR1            <65         n          n     14
-#> 9     ARM      Placebo   AGEGR1            <65         N          N     86
-#> 10    ARM      Placebo   AGEGR1            <65         p          %  0.163
+#> 8     ARM      Placebo   AGEGR1          65-80         n          n     42
+#> 9     ARM      Placebo   AGEGR1          65-80         N          N     86
+#> 10    ARM      Placebo   AGEGR1          65-80         p          %  0.488
 #> ℹ 56 more rows
 #> ℹ Use `print(n = ...)` to see more rows
 #> ℹ 4 more variables: context, fmt_fun, warning, error
@@ -191,13 +191,13 @@ ard_stack(
 
 Next, we will review several examples for creating basic adverse events
 (AE) tables. We will skip to examples utilizing the shortcut functions
-[`ard_stack_hierarchical()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md)
+[`ard_stack_hierarchical()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md)
 and
-[`ard_stack_hierarchical_count()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md).
+[`ard_stack_hierarchical_count()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md).
 These functions utilize multiple calls to
-[`ard_hierarchical()`](https://insightsengineering.github.io/cards/reference/ard_hierarchical.md)
+[`ard_hierarchical()`](https://pharmaverse.github.io/cards/reference/ard_hierarchical.md)
 and
-[`ard_hierarchical_count()`](https://insightsengineering.github.io/cards/reference/ard_hierarchical.md)
+[`ard_hierarchical_count()`](https://pharmaverse.github.io/cards/reference/ard_hierarchical.md)
 to calculate the needed summary statistics.
 
 For the computations below, we will not only make use of a subset of the
@@ -227,7 +227,7 @@ by system organ class and preferred term.
 [TABLE]
 
 The
-[`ard_stack_hierarchical()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md)
+[`ard_stack_hierarchical()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md)
 function provides a shortcut to perform the calculations needed for the
 summary table in a single step.
 
@@ -289,7 +289,7 @@ organ class).
 [TABLE]
 
 The
-[`ard_stack_hierarchical_count()`](https://insightsengineering.github.io/cards/reference/ard_stack_hierarchical.md)
+[`ard_stack_hierarchical_count()`](https://pharmaverse.github.io/cards/reference/ard_stack_hierarchical.md)
 function provides a shortcut to perform the calculations needed for the
 summary table in a single step.
 
